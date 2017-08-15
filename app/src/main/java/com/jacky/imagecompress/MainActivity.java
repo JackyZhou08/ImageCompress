@@ -19,6 +19,11 @@ import java.io.File;
 
 /**
  * Options.inJustDecodeBounds 设置为true，则bitmap不会加载到内存中，获取到的bitmap实例为null，都是可以知道图片的width与height
+ *
+ * ExifInterface描述多媒体的文件的一些附加信息，例如方向等
+ *
+ * Matrix
+ *
  */
 public class MainActivity extends AppCompatActivity {
     private final int requestCode = 0;
